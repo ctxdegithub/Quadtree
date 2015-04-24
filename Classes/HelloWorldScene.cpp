@@ -1,0 +1,52 @@
+#include "HelloWorldScene.h"
+#include "cocostudio/CocoStudio.h"
+#include "ui/CocosGUI.h"
+#include "Player.h"
+
+USING_NS_CC;
+
+using namespace cocostudio::timeline;
+
+Scene* HelloWorld::createScene()
+{
+    // 'scene' is an autorelease object
+    auto scene = Scene::create();
+    
+    // 'layer' is an autorelease object
+    auto layer = HelloWorld::create();
+
+    // add layer as a child to scene
+    scene->addChild(layer);
+
+    // return the scene
+    return scene;
+}
+
+// on "init" you need to initialize your instance
+bool HelloWorld::init()
+{
+    //////////////////////////////
+    // 1. super init first
+    if ( !Layer::init() )
+    {
+        return false;
+    }
+    
+    auto size = Director::getInstance()->getWinSize();
+    for (int i=0; i<10; ++i)
+    {
+        auto player = Player::create();
+        player->setPosition(Vec2(CCRANDOM_0_1() * size.width, CCRANDOM_0_1() * size.height));
+        addChild(player);
+        _quadtree.insert(player);
+    }
+    
+    scheduleUpdate();
+
+    return true;
+}
+
+void HelloWorld::update(float delta)
+{
+
+}
