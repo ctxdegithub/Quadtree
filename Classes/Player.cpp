@@ -22,8 +22,7 @@ bool Player::init()
         return false;
     }
     
-    _sprite = Sprite::create("sphere.png");
-    _sprite->setScale(0.02f);
+    _sprite = Sprite::create("rect.png");
     addChild(_sprite);
     
     _size = _sprite->getContentSize();

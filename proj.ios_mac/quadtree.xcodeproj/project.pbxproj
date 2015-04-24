@@ -63,6 +63,8 @@
 		F556C89B1AEA55490024A353 /* Quadtree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F556C8981AEA55490024A353 /* Quadtree.cpp */; };
 		F556C89E1AEA67060024A353 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F556C89C1AEA67060024A353 /* Player.cpp */; };
 		F556C89F1AEA67060024A353 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F556C89C1AEA67060024A353 /* Player.cpp */; };
+		F556C8A11AEA6C450024A353 /* rect.png in Resources */ = {isa = PBXBuildFile; fileRef = F556C8A01AEA6C450024A353 /* rect.png */; };
+		F556C8A21AEA6C450024A353 /* rect.png in Resources */ = {isa = PBXBuildFile; fileRef = F556C8A01AEA6C450024A353 /* rect.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,6 +127,7 @@
 		F556C8991AEA55490024A353 /* Quadtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quadtree.h; sourceTree = "<group>"; };
 		F556C89C1AEA67060024A353 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		F556C89D1AEA67060024A353 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		F556C8A01AEA6C450024A353 /* rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rect.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +245,7 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F556C8A01AEA6C450024A353 /* rect.png */,
 				E4E9495E93D700EF88A10783 /* res */,
 			);
 			name = Resources;
@@ -395,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
+				F556C8A11AEA6C450024A353 /* rect.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
@@ -422,6 +427,7 @@
 			files = (
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				DABD483095999368E11E7911 /* res in Resources */,
+				F556C8A21AEA6C450024A353 /* rect.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

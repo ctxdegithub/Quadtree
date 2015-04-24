@@ -3,6 +3,8 @@
 
 #include "cocos2d.h"
 #include "Quadtree.h"
+USING_NS_CC;
+
 class Player;
 
 class HelloWorld : public cocos2d::Layer
@@ -18,9 +20,13 @@ public:
     // implement the "static create()" method manually
     CREATE_FUNC(HelloWorld);
     
+    bool onTouchBegan(Touch* touch, Event* event);
+    void onTouchMoved(Touch* touch, Event* event);
+    
 private:
     Quadtree _quadtree;
     std::vector<Player*> _players;
+    DrawNode* _drawNode;
 };
 
 #endif // __HELLOWORLD_SCENE_H__

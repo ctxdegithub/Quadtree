@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C3F3EA12-C035-4216-82C3-600A08C577EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>quadtree</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>08553691B0D4E74D78AD6EFD9E728A327A64BF4B</key>
+		<string>github.com:ctxdegithub/Quadtree.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>proj.ios_mac/quadtree.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>08553691B0D4E74D78AD6EFD9E728A327A64BF4B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ctxdegithub/Quadtree.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>08553691B0D4E74D78AD6EFD9E728A327A64BF4B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>08553691B0D4E74D78AD6EFD9E728A327A64BF4B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>quadtree</string>
+		</dict>
+	</array>
+</dict>
+</plist>
